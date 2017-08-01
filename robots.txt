@@ -1,0 +1,22 @@
+Host: sev-apex.ru
+Sitemap: http://sev-apex.ru/sitemap.xml
+
+User-agent: *
+Disallow: /? 
+Disallow: /login
+Disallow: /admincp
+Crawl-delay: 1.5
+
+User-agent: YandexBot
+Disallow: /? 
+Disallow: /login
+Disallow: /admincp
+Crawl-delay: 1.5
+
+User-agent: GoogleBot
+Disallow: /? 
+Allow: *.css
+Allow: *.js
+Disallow: /login
+Disallow: /admincp
+Crawl-delay: 1.5
